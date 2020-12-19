@@ -1,7 +1,7 @@
-package barrier.array.node;
+package barrier.node;
 
+import barrier.Barrier;
 import barrier.experement.Work;
-import barrier.array.Barrier;
 import org.apache.log4j.Logger;
 
 import java.io.FileInputStream;
@@ -12,13 +12,18 @@ public class Node implements Runnable{
     private Barrier barrier;
     private int index;
 
-    public Node(Barrier barrier, int index) {
-        this.index = index;
+    public Node(Barrier barrier) throws Exception {
         createLogger();
         this.barrier = barrier;
     }
 
-    private void work() throws InterruptedException {
+    public Node(Barrier barrier, int index) throws Exception {
+        createLogger();
+        this.barrier = barrier;
+        this.index = index;
+    }
+
+    private void work() {
         logger.info("Thread.id = " + Thread.currentThread().getId() + ": Foo start");
         Work.foo();
         logger.info("Thread.id = " + Thread.currentThread().getId() + ": Foo end");
@@ -28,21 +33,15 @@ public class Node implements Runnable{
         logger.info("Thread.id = " + Thread.currentThread().getId() + ": Bar end");
     }
 
-    private void createLogger() {
-        try(FileInputStream ins = new FileInputStream("/Users/tiger/IdeaProjects/barrier/logs/barrierArray.log")){
+    private void createLogger() throws Exception {
+        try(FileInputStream ins = new FileInputStream("/Users/tiger/IdeaProjects/barrier/logs/barrierTestAndSet.log")){
             LogManager.getLogManager().readConfiguration(ins);
             logger = Logger.getLogger(getClass());
-        }catch (Exception ignore){
-            ignore.printStackTrace();
         }
     }
 
 
     public void run() {
-        try {
-            work();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        work();
     }
 }

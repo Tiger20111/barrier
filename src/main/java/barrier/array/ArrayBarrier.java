@@ -1,13 +1,15 @@
 package barrier.array;
 
-import java.util.ArrayList;
+import barrier.Barrier;
 
-public class Barrier {
+public class ArrayBarrier implements Barrier {
     private int[] locks;
-    public Barrier(int n) {
+
+    public ArrayBarrier(int n) {
         locks = new int[n];
     }
 
+    @Override
     public void myWait(int index) {
         if (index == 0) {
             locks[0] = 1;
