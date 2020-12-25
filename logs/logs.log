@@ -1,0 +1,504 @@
+2020-12-25 16:17:49 INFO  Application:21 - Num iter: 0
+
+
+2020-12-25 16:17:49 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:17:49 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 24: Foo start
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 23: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 23: Foo end
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 26: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 24: Foo end
+2020-12-25 16:17:49 INFO  Node:24 - Thread.id = 25: Foo start
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 25: Foo end
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 26: Foo end
+2020-12-25 16:17:49 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 25: Bar start
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 26: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 26: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 23: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 23: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:17:49 INFO  Node:28 - Thread.id = 24: Bar start
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 24: Bar end
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:17:49 INFO  Node:30 - Thread.id = 25: Bar end
+2020-12-25 16:17:50 INFO  Application:35 - Time diff(T/A): 2.1265741793818522
+
+2020-12-25 16:17:50 INFO  Application:21 - Num iter: 1
+
+
+2020-12-25 16:17:50 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:17:50 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 26: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 26: Foo end
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 25: Foo start
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 24: Foo start
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:17:50 INFO  Node:24 - Thread.id = 23: Foo start
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 23: Foo end
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 24: Foo end
+2020-12-25 16:17:50 INFO  Node:26 - Thread.id = 25: Foo end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 25: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 25: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 23: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 23: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 24: Bar start
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 26: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 26: Bar end
+2020-12-25 16:17:50 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 24: Bar end
+2020-12-25 16:17:50 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:17:51 INFO  Application:35 - Time diff(T/A): 1.113520447603891
+
+2020-12-25 16:17:51 INFO  Application:21 - Num iter: 2
+
+
+2020-12-25 16:17:51 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:17:51 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 25: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 25: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 26: Foo start
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 26: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 24: Foo start
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 23: Foo start
+2020-12-25 16:17:51 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 23: Foo end
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 24: Foo end
+2020-12-25 16:17:51 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 25: Bar start
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 26: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 26: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 23: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 23: Bar end
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:17:51 INFO  Node:28 - Thread.id = 24: Bar start
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 24: Bar end
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:17:51 INFO  Node:30 - Thread.id = 25: Bar end
+2020-12-25 16:17:52 INFO  Application:35 - Time diff(T/A): 1.1393021889436685
+
+2020-12-25 16:19:23 INFO  Application:21 - Num iter: 0
+
+
+2020-12-25 16:19:23 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:19:23 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:19:23 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:19:23 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:19:23 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:19:23 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:19:24 INFO  Application:35 - Time diff(T/A): 2.6357511491572425
+
+2020-12-25 16:19:24 INFO  Application:21 - Num iter: 1
+
+
+2020-12-25 16:19:24 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:19:24 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:19:24 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:19:24 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:19:24 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:19:24 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:19:25 INFO  Application:35 - Time diff(T/A): 0.9971840525865786
+
+2020-12-25 16:19:25 INFO  Application:21 - Num iter: 2
+
+
+2020-12-25 16:19:25 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:19:25 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:19:25 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:19:25 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:19:25 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:19:25 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:19:26 INFO  Application:35 - Time diff(T/A): 1.252193750841563
+
+2020-12-25 16:19:26 INFO  Application:21 - Num iter: 3
+
+
+2020-12-25 16:19:26 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:19:26 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:19:26 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:19:26 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:19:26 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:19:26 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:19:27 INFO  Application:35 - Time diff(T/A): 0.9740957529359922
+
+2020-12-25 16:19:27 INFO  Application:21 - Num iter: 4
+
+
+2020-12-25 16:19:27 INFO  Application:30 - Test and Set barrier:
+
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 12: Foo start
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 11: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 11: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 16: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 16: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 15: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 15: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 13: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 13: Foo end
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 12: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 14: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 14: Foo end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 14: Bar start
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 13: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 13: Bar end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 12: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 12: Bar end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 11: Bar start
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 16: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 16: Bar end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 15: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 15: Bar end
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 14: Bar end
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 11: Bar end
+2020-12-25 16:19:27 INFO  Application:32 - Array barrier:
+
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 17: Foo start
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 18: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 18: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 21: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 21: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 22: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 22: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 19: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 19: Foo end
+2020-12-25 16:19:27 INFO  Node:24 - Thread.id = 20: Foo start
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 20: Foo end
+2020-12-25 16:19:27 INFO  Node:26 - Thread.id = 17: Foo end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 20: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 20: Bar end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 17: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 17: Bar end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 22: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 22: Bar end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 19: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 19: Bar end
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 18: Bar start
+2020-12-25 16:19:27 INFO  Node:28 - Thread.id = 21: Bar start
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 18: Bar end
+2020-12-25 16:19:27 INFO  Node:30 - Thread.id = 21: Bar end
+2020-12-25 16:19:28 INFO  Application:35 - Time diff(T/A): 1.0371479024653947
+

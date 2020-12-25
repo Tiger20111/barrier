@@ -4,9 +4,6 @@ import barrier.Barrier;
 import barrier.experement.Work;
 import org.apache.log4j.Logger;
 
-import java.io.FileInputStream;
-import java.util.logging.LogManager;
-
 public class Node implements Runnable{
     private Logger logger;
     private Barrier barrier;
@@ -33,11 +30,8 @@ public class Node implements Runnable{
         logger.info("Thread.id = " + Thread.currentThread().getId() + ": Bar end");
     }
 
-    private void createLogger() throws Exception {
-        try(FileInputStream ins = new FileInputStream("C:\\Users\\Tiger20111\\IdeaProjects\\barrier\\logs\\logs.log ")){
-            LogManager.getLogManager().readConfiguration(ins);
+    private void createLogger() {
             logger = Logger.getLogger(getClass());
-        }
     }
 
 
