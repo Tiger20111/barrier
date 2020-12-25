@@ -1,10 +1,10 @@
 package barrier.testandset;
 
+import barrier.MyExecuter;
 import barrier.node.Node;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Future;
 
 public class BarrierTasTest{
     public static long run(int n, ExecutorService tasPool) throws Exception {
@@ -15,13 +15,9 @@ public class BarrierTasTest{
             Node newNode = new Node(barrier);
             nodes.add(newNode);
         }
-        for (Node node : nodes) {
-            Future<?> f = tasPool.submit(node);
-            f.get();
-        }
+        MyExecuter.executeTasks(tasPool, nodes);
         long timeTas = System.nanoTime() - startTime;
         System.out.println("time to execute TestAndSet: " + timeTas);
-
         return timeTas;
     }
 }

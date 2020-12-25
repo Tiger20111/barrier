@@ -34,13 +34,14 @@ public class Node implements Runnable{
     }
 
     private void createLogger() throws Exception {
-        try(FileInputStream ins = new FileInputStream("/Users/tiger/IdeaProjects/barrier/logs/barrierTestAndSet.log")){
+        try(FileInputStream ins = new FileInputStream("C:\\Users\\Tiger20111\\IdeaProjects\\barrier\\logs\\logs.log ")){
             LogManager.getLogManager().readConfiguration(ins);
             logger = Logger.getLogger(getClass());
         }
     }
 
 
+    @Override
     public void run() {
         work();
     }

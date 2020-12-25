@@ -1,9 +1,9 @@
 package barrier.array;
 
+import barrier.MyExecuter;
 import barrier.node.Node;
 
 import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 
 public class BarrierArrayTest {
@@ -15,16 +15,10 @@ public class BarrierArrayTest {
             Node newNode = new Node(barrier, i);
             nodes.add(newNode);
         }
-        nodes.stream().map(tasPool::submit)
-                .forEach(f -> {
-                    try {
-                        f.get();
-                    } catch (InterruptedException | ExecutionException e) {
-                        e.printStackTrace();
-                    }
-                });
+        MyExecuter.executeTasks(tasPool, nodes);
         long timeArr = System.nanoTime() - startTime;
         System.out.println("time to execute Array: " + timeArr);
         return timeArr;
     }
+
 }
